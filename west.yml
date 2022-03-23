@@ -1,0 +1,17 @@
+# Copyright (C) metraTec GmbH - All Rights Reserved
+# Unauthorized copying of this file, via any medium is strictly prohibited
+# Proprietary and confidential
+# Written by Gerhard Jörges <joerges@metratec.com>, March 2022
+
+manifest:
+  remotes:
+    - name: zephyrproject
+      url-base: https://github.com/zephyrproject-rtos
+  projects:
+    - name: zephyr
+      remote: zephyrproject
+      revision: c31cb0075ad1933da5487db734c118cd5083ae3d
+      import:
+        name-whitelist:
+          - cmsis
+          - hal_nordic

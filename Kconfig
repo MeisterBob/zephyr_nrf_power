@@ -1,0 +1,12 @@
+# Copyright (C) metraTec GmbH - All Rights Reserved
+# Unauthorized copying of this file, via any medium is strictly prohibited
+# Proprietary and confidential
+# Written by Gerhard Jörges <joerges@metratec.com>, March 2022
+
+module = APP
+module-str = APP
+source "subsys/logging/Kconfig.template.log_config"
+
+menu "Zephyr"
+source "Kconfig.zephyr"
+endmenu
